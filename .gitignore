@@ -1,0 +1,8 @@
+# license server install
+daemon.tar.Z
+
+# license
+*.lic
+
+# Editor files
+.vscode/
