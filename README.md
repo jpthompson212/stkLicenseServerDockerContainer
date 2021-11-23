@@ -2,7 +2,7 @@
 
 > Unofficial STK License Server Container
 
-This requires that you download the STK License Server from [AGI Suppoort](https://support.agi.com/downloads/?t=2) and obtain a license by contacting [AGI Support](mailto:support@agi.com).  Once you have obtained these place the daemon.tar.Z file from <STKLicenseServerDownload>\Unix\unix_x64.tar\unix_x64\products\daemon at the root level of the project. 
+This requires that you download the STK License Server from [AGI Support](https://support.agi.com/downloads/?t=2) and obtain a license by contacting [AGI Support](mailto:support@agi.com).  Once you have obtained these place the daemon.tar.Z file from <STKLicenseServerDownload>\Unix\unix_x64.tar\unix_x64\products\daemon at the root level of the project. 
 
 ## Build the image ##
 
@@ -18,7 +18,7 @@ To run the container
 | ----- | ------ |
 | -h | `<license-host-name>` |
 | -p | `2080:2080` |
-| -p | `27000-27009:27000:27009` |
+| -p | `27000-27009:27000-27009` |
 | -v | `<local-license-path>:/var/flexlm/stk_server_license.lic` |
 | --name | `stk_license` |
 
